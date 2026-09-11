@@ -14,8 +14,8 @@ JavaScript/
 │   ├── task_5.js/
 │   └── task_6.js/
 ├── Задачки в классе/
-│   ├── Lesson 1
-│   │   ├── Variant 1
+│   ├── Lesson 1/
+│   │   ├── Variant 1/
 │   │   │  ├── task_1.js/
 │   │   │  ├── task_2.js/
 │   │   │  ├── task_3.js/
@@ -25,7 +25,7 @@ JavaScript/
 │   │   │  ├── task_7.js/
 │   │   │  └── task_8.js/
 │   │   │
-│   │   ├── Variant 2
+│   │   ├── Variant 2/
 │   │   │  ├── task_1.js/
 │   │   │  ├── task_2.js/
 │   │   │  ├── task_3.js/
