@@ -13,6 +13,29 @@ JavaScript/
 │   ├── task_4.js/
 │   ├── task_5.js/
 │   └── task_6.js/
+├── Задачки в классе/
+│   ├── Lesson 1
+│   │   ├── Variant 1
+│   │   │  ├── task_1.js/
+│   │   │  ├── task_2.js/
+│   │   │  ├── task_3.js/
+│   │   │  ├── task_4.js/
+│   │   │  ├── task_5.js/
+│   │   │  ├── task_6.js/
+│   │   │  ├── task_7.js/
+│   │   │  └── task_8.js/
+│   │   │
+│   │   ├── Variant 2
+│   │   │  ├── task_1.js/
+│   │   │  ├── task_2.js/
+│   │   │  ├── task_3.js/
+│   │   │  ├── task_4.js/
+│   │   │  ├── task_5.js/
+│   │   │  ├── task_6.js/
+│   │   │  ├── task_7.js/
+│   │   │  └── task_8.js/
+│   │   │
+│   │
 └── README.md
 ```
 
