@@ -35,7 +35,28 @@ JavaScript/
 │   │   │  ├── task_7.js/
 │   │   │  └── task_8.js/
 │   │   │
+│   │   ├── Variant 3/
+│   │   │  ├── task_1.js/
+│   │   │  ├── task_2.js/
+│   │   │  ├── task_3.js/
+│   │   │  ├── task_4.js/
+│   │   │  ├── task_5.js/
+│   │   │  ├── task_6.js/
+│   │   │  ├── task_7.js/
+│   │   │  └── task_8.js/
+│   │   │
+│   │   ├── Variant 4/
+│   │   │  ├── task_1.js/
+│   │   │  ├── task_2.js/
+│   │   │  ├── task_3.js/
+│   │   │  ├── task_4.js/
+│   │   │  ├── task_5.js/
+│   │   │  ├── task_6.js/
+│   │   │  ├── task_7.js/
+│   │   │  └── task_8.js/
+│   │   │
 │   │
+│ 
 └── README.md
 ```
 
