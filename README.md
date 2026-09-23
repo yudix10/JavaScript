@@ -2,64 +2,6 @@
 
 Учебный репозиторий с практическими заданиями по JavaScript.
 
-## 📁 Структура проекта
-
-```text
-JavaScript/
-├── Задачки на дом (10.09.)/
-│   ├── task_1.js/
-│   ├── task_2.js/
-│   ├── task_3.js/
-│   ├── task_4.js/
-│   ├── task_5.js/
-│   └── task_6.js/
-├── Задачки в классе/
-│   ├── Lesson 1/
-│   │   ├── Variant 1/
-│   │   │  ├── task_1.js/
-│   │   │  ├── task_2.js/
-│   │   │  ├── task_3.js/
-│   │   │  ├── task_4.js/
-│   │   │  ├── task_5.js/
-│   │   │  ├── task_6.js/
-│   │   │  ├── task_7.js/
-│   │   │  └── task_8.js/
-│   │   │
-│   │   ├── Variant 2/
-│   │   │  ├── task_1.js/
-│   │   │  ├── task_2.js/
-│   │   │  ├── task_3.js/
-│   │   │  ├── task_4.js/
-│   │   │  ├── task_5.js/
-│   │   │  ├── task_6.js/
-│   │   │  ├── task_7.js/
-│   │   │  └── task_8.js/
-│   │   │
-│   │   ├── Variant 3/
-│   │   │  ├── task_1.js/
-│   │   │  ├── task_2.js/
-│   │   │  ├── task_3.js/
-│   │   │  ├── task_4.js/
-│   │   │  ├── task_5.js/
-│   │   │  ├── task_6.js/
-│   │   │  ├── task_7.js/
-│   │   │  └── task_8.js/
-│   │   │
-│   │   ├── Variant 4/
-│   │   │  ├── task_1.js/
-│   │   │  ├── task_2.js/
-│   │   │  ├── task_3.js/
-│   │   │  ├── task_4.js/
-│   │   │  ├── task_5.js/
-│   │   │  ├── task_6.js/
-│   │   │  ├── task_7.js/
-│   │   │  └── task_8.js/
-│   │   │
-│   │
-│ 
-└── README.md
-```
-
 ## 🎯 Цель
 
 Практика основ JavaScript и закрепление полученных знаний на небольших практических задачах.
@@ -108,3 +50,86 @@ JavaScript-файлы можно запускать в браузере или �
 ## 👨‍💻 Автор
 
 **yudix10**
+
+<!-- TREE-START -->
+## 📁 Структура проекта
+
+```text
+JS (йоу)/
+├── JS code
+│   ├── Variant 1
+│   │   ├── task_1.js
+│   │   ├── task_2.js
+│   │   ├── task_3.js
+│   │   ├── task_4.js
+│   │   ├── task_5.js
+│   │   ├── task_6.js
+│   │   ├── task_7.js
+│   │   └── task_8.js
+│   ├── Variant 2
+│   │   ├── task_1.js
+│   │   ├── task_2.js
+│   │   ├── task_3.js
+│   │   ├── task_4.js
+│   │   ├── task_5.js
+│   │   ├── task_6.js
+│   │   ├── task_7.js
+│   │   └── task_8.js
+│   ├── Variant 3
+│   │   ├── task_1.js
+│   │   ├── task_2.js
+│   │   ├── task_3.js
+│   │   ├── task_4.js
+│   │   ├── task_5.js
+│   │   ├── task_6.js
+│   │   ├── task_7.js
+│   │   └── task_8.js
+│   ├── Variant 4
+│   │   ├── task_1.js
+│   │   ├── task_2.js
+│   │   ├── task_3.js
+│   │   ├── task_4.js
+│   │   ├── task_5.js
+│   │   ├── task_6.js
+│   │   ├── task_7.js
+│   │   └── task_8.js
+│   ├── index.html
+│   ├── test.js
+│   └── test_task.js
+├── JS кр
+│   ├── task(отдельно)
+│   │   ├── task_1.js
+│   │   ├── task_2.js
+│   │   ├── task_3.js
+│   │   ├── task_4.js
+│   │   ├── task_5.js
+│   │   ├── task_6.js
+│   │   ├── task_7.js
+│   │   └── task_8.js
+│   ├── index.html
+│   └── test_task.js
+├── Задачки в классе
+│   ├── Lesson 1
+│   │   ├── index.html
+│   │   ├── test.js
+│   │   └── test_task.js
+│   ├── Lesson 2
+│   │   ├── index.html
+│   │   ├── index.js
+│   │   └── text.txt
+│   └── Lesson 3
+│       ├── lesson3.html
+│       ├── test.js
+│       └── text.txt
+├── Задачки на дом (10.09.)
+│   ├── task_1.js
+│   ├── task_2.js
+│   ├── task_3.js
+│   ├── task_4.js
+│   ├── task_5.js
+│   └── task_6.js
+├── README.md
+├── run_update.bat
+└── update_readme.py
+```
+<!-- TREE-END -->
