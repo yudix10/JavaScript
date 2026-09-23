@@ -17,32 +17,30 @@
 // console.log(getErger(arr, 3));
 
 //-----------------------------------------------------------------------------------------//
+// // Task 2
+// "use strict"
 
-// Task 2
-"use strict"
+// let lenArr = 10
+// let arr = []
 
-let lenArr = 10
-let arr = []
+// for (let i = 0; i<lenArr; i++) {
+//     arr.push(Math.floor(Math.random() * (10-1)) + 1)
+// }
+// console.log(arr);
 
-for (let i = 0; i<lenArr; i++) {
-    arr.push(Math.floor(Math.random() * (10-1)) + 1)
-}
-console.log(arr);
-
-function TAsk2(arr){
-    for (let k = 0; k< arr.length - 1; k++){
-        if (arr[k] == arr[k+1]) {
-            return true                                 //проверка на 2 эл-та совпадают)
-        }
-    }
+// function TAsk2(arr){
+//     for (let k = 0; k< arr.length - 1; k++){
+//         if (arr[k] == arr[k+1]) {
+//             return true                                 //проверка на 2 эл-та совпадают)
+//         }
+//     }
     
-    return false
-}
+//     return false
+// }
 
-console.log(TAsk2(arr));
+// console.log(TAsk2(arr));
 
 //-----------------------------------------------------------------------------------------//
-
 // // Task 3
 // "use strict"
 
@@ -62,56 +60,70 @@ console.log(TAsk2(arr));
 // console.log(TASK3(arr));
 
 //-----------------------------------------------------------------------------------------//
-
 // // Task 4
 // "use strict"
+// function Task4() {
+//     let n = Number(prompt("Введите количество элементов:"));
 
-// let lenArr = 10
-// let arr = []
+//     let arr = [];
 
-// for (let i = 0; i<lenArr; i++) {
-//     arr.push(Math.floor(Math.random() * (20-10)) + 1)
+//     // Заполняем массив числами от 10 до 20
+//     for (let i = 0; i < n; i++) {
+//         arr.push(Math.floor(Math.random() * 11) + 10);
+//     }
+
+//     console.log("Исходный массив:", arr);
+
+//     let newArr = [];
+
+//     for (let i = 0; i < arr.length; i++) {
+//         newArr.push(arr[i]);
+
+//         if ((i + 1) % 2 === 0 && arr[i] % 2 === 0) {    // Проверяем, что место четное и элемент четный
+//             newArr.push(0);
+//         }
+//     }
+
+//     console.log("Новый массив:", newArr);
+
+//     return newArr;
 // }
-// console.log(arr);
 
-// function TASk4()
-
-// console.log(TASk4(arr));
+// Task4();
 
 //-----------------------------------------------------------------------------------------//
+// Task 5
+"use strict"
 
-// // Task 5
-// "use strict"
+let lenArr1 = 3
+let arr1 = []
 
-// let lenArr1 = 3
-// let arr1 = []
+for (let i = 0; i<lenArr1; i++) {
+    arr1.push(Math.floor(Math.random() * (-100-10)) + 1)
+}
+console.log(arr1);
 
-// for (let i = 0; i<lenArr1; i++) {
-//     arr1.push(Math.floor(Math.random() * (-100-10)) + 1)
-// }
-// console.log(arr1);
+let lenArr2 = 5
+let arr2 = []
 
-// let lenArr2 = 5
-// let arr2 = []
+for (let i = 0; i<lenArr2; i++) {
+    arr2.push(Math.floor(Math.random() * (1000-10)) + 1)
+}
+console.log(arr2);
 
-// for (let i = 0; i<lenArr2; i++) {
-//     arr2.push(Math.floor(Math.random() * (1000-10)) + 1)
-// }
-// console.log(arr2);
+function TAsk5(arr1,arr2) {          // sort^ возвращает отсортированный массив
 
-// function TAsk5(arr1,arr2) {          // sort^ возвращает отсортированный массив
+    arr1.sort(function(a,b) {                   //|
+        return a-b                              //|
+    })                                          //|   // сортирует их по возрастанию как в в кдассной работе
+                                                //|
+    arr2.sort(function(a,b) {                   //|
+        return a-b                              //|
+    })
 
-//     arr1.sort(function(a,b) {                   //|
-//         return a-b                              //|
-//     })                                          //|   // сортирует их по возрастанию как в в кдассной работе
-//                                                 //|
-//     arr2.sort(function(a,b) {                   //|
-//         return a-b                              //|
-//     })
-
-//     let result = arr1.concat(arr2)      //concat(): копирует элементы нескольких массивов и сооед их
+    let result = arr1.concat(arr2)      //concat(): копирует элементы нескольких массивов и сооед их
     
-//     return result
-// }
+    return result
+}
 
-// console.log(TAsk5(arr1,arr2));
+console.log(TAsk5(arr1,arr2));
